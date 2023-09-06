@@ -219,7 +219,7 @@ main{
 @media only screen and (max-width: 600px) {
   .hero-logo {
   width: 330px;
-    margin: 0.4em 0 1em;
+    margin: 0.4em 0 1.2em;
   }
   .hero .social-links {
     font-size: 25px;
