@@ -1,5 +1,6 @@
 .header {
-  margin-bottom: 1em;
+  position: relative;
+  z-index: 10000;
 }
 .inventory-container {
   margin-top: -1em;
