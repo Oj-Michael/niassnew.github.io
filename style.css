@@ -887,6 +887,7 @@ footer p {
   text-shadow: 1px 2px 3px #000;
 }
 footer ul {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0.8em;
