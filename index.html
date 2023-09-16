@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niass Autowheels</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <!-- link to external features -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5d85f1a918.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Courgette&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="pre-loader">
+      <div class="hand">
+          <div class="finger a">
+              <div class="line a-line"></div>
+          </div>
+          <div class="finger b">
+              <div class="line b-line"></div>
+          </div>
+          <div class="finger c">
+              <div class="line c-line"></div>
+          </div>
+          <div class="finger d">
+              <div class="line d-line"></div>
+          </div>
+          <div class="finger e">
+          </div>
+      </div>
+  </div>
+    <div class="hero">
+      <img class="hero-logo" src="images/hero-logo.png" alt="Niass logo" />
+      <div class="social-links">
+        <a href="#"><i
+          class="fa-brands fa-x-twitter socail-icon"
+          style="color: #000; cursor: pointer"
+        ></i></a>
+        <a href="https://instagram.com/niass.autowheels?igshid=NTc4MTIwNjQ2YQ=="><i
+          class="fa-brands fa-instagram socail-icon"
+          style="color: #000; cursor: pointer"
+        ></i></a>
+        <a href="https://wa.link/rb18dn"><i
+          class="fa-brands fa-whatsapp socail-icon"
+          style="color: #000; cursor: pointer"
+        ></i></a>
+        <a href="#"><i
+          class="fa-regular fa-envelope socail-icon"
+          style="color: #000; cursor: pointer"
+        ></i></a>
+      </div>
+      <h1><span class="auto-type"></span></h1>
+      <h3> <span class="auto-type2"></span> </h3>
+    </div>
+    <main>
+      <header>
+        <div class="container">
+          <img src="images/logo.jpg" alt="Niass logo" class="logo" id="logo" />
+          <div class="nav">
+            <nav>
+              <button class="menu-icon" id="btn" aria-expanded="false">
+                <svg class="bar" viewBox="0 0 100 100" width="20">
+                  <line
+                    class="line top"
+                    x1="90"
+                    x2="10"
+                    y1="30"
+                    y2="30"
+                    stroke-width="15"
+                    stroke-linecap="round"
+                    stroke-dasharray="80"
+                    stroke-dashoffset="0"
+                  ></line>
+                  <line
+                    class="line bottom"
+                    x1="10"
+                    x2="90"
+                    y1="70"
+                    y2="70"
+                    stroke-width="15"
+                    stroke-linecap="round"
+                    stroke-dasharray="80"
+                    stroke-dashoffset="0"
+                  ></line>
+                </svg>
+              </button>
+              <div class="menu-container" id="nav">
+                <ul>
+                  <li><a class="link active-link" href="#">Home</a></li>
+                  <li><a class="link" href="about.html">About</a></li>
+                  <li><a class="link" href="services.html">Services</a></li>
+                  <li><a class="link" href="inventory.html">Inventory</a></li>
+                  <li><a class="link" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="name">
+        <div class="container">
+          <p>Welcome to</p>
+          <h2 class="hidden">NIASS AUTOWHEELS</h2>
+          <p class="hidden">The Home of luxurious vehicles...</p>
+
+          <p class="norms hidden">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            possimus laboriosam officia deleniti saepe, placeat consequuntur
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            dolores ea ab corporis tempore et expedita odio sunt molestiae.
+          </p>
+        </div>
+      </section>
+      <section class="inventory-section">
+        <div class="container">
+          <h3 class="section-title hidden-bounce">Inventory</h3>
+          <p class="hidden-bounce">
+            Whether you're buying your dream car, upgrading your vehicles or you
+            come to see in person?
+            <br />Browse through our inventory bellow...
+          </p>
+
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide .carousel-fade hidden-bounce"
+            data-bs-interval="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4200">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <div class="img">
+                      <img src="inventory/IMG-20230904-WA0011.jpg" />
+                      <div class="layer">
+                        <h4>Model:</h4>
+                        <h4>Price:</h4>
+                        <h4>Year:</h4>
+                      </div>
+                    </div>
+                    <div class="item-card-info">
+                      <p><span>Vehicle One.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4200">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <div class="img">
+                      <img src="images/hero-bg.jpg" />
+                      <div class="layer">
+                        <h4>Model:</h4>
+                        <h4>Price:</h4>
+                        <h4>Year:</h4>
+                      </div>
+                    </div>
+                    <div class="item-card-info">
+                      <p><span>Vehicle Two.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4200">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <div class="img">
+                      <img src="inventory/IMG-20230904-WA0033.jpg" />
+                      <div class="layer">
+                        <h4>Model:</h4>
+                        <h4>Price:</h4>
+                        <h4>Year:</h4>
+                      </div>
+                    </div>
+                    <div class="item-card-info">
+                      <p><span>Vehicle Three.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4200">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <div class="img">
+                      <img src="inventory/IMG-20230904-WA0017.jpg" />
+                      <div class="layer">
+                        <h4>Model:</h4>
+                        <h4>Price:</h4>
+                        <h4>Year:</h4>
+                      </div>
+                    </div>
+                    <div class="item-card-info">
+                      <p><span>Vehicle Four.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4200">
+                <div class="item-card">
+                  <div class="item-card-img">
+                    <div class="img">
+                      <img src="inventory/IMG-20230904-WA0031.jpg" />
+                      <div class="layer">
+                        <h4>Model:</h4>
+                        <h4>Price:</h4>
+                        <h4>Year:</h4>
+                      </div>
+                    </div>
+                    <div class="item-card-info">
+                      <p><span>Vehicle Five.</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+                style="
+                  background-color: #000;
+                  padding: 0.5em;
+                  border-radius: 7px;
+                "
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+                style="
+                  background-color: #000;
+                  padding: 0.5em;
+                  border-radius: 7px;
+                "
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <a href="inventory.html" class="cta hidden">View Our Inventory <span>>></span></a>
+        </div>
+      </section>
+
+      <!-- the services section -->
+      <section class="services-section">
+        <div class="container">
+          <h3 class="section-title hidden-bounce">Our Services</h3>
+          <div class="services-grid">
+            <div class="services hidden">
+              <div class="icon-container">
+                <i class="fa-solid fa-car"></i>
+              </div>
+              <h4>Selling Cars</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                eum nisi, officiis obcaecati iure autem velit fugiat
+              </p>
+            </div>
+            <div class="services hidden">
+              <div class="icon-container">
+                <i class="fa-solid fa-car cc"></i>
+              </div>
+              <h4>Buying Cars</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                eum nisi, officiis obcaecati iure autem velit fugiat
+              </p>
+            </div>
+          </div>
+          <a href="services.html" class="cta hidden"
+            >View More Services <span>>></span></a
+          >
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="contact-section">
+        <div class="container">
+          <h3 class="section-title hidden-bounce">Let's Talk</h3>
+          <div class="contact">
+            <div class="contact-info">
+              <p class="hidden-bounce">
+                You can reach us via the following links or talk from here..
+              </p>
+              <div class="social-links hidden">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/niass.autowheels?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.link/rb18dn"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="contact-form hidden">
+              <form>
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Email / Number" />
+                <textarea placeholder="Your Message"></textarea>
+                <button class="btn" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <img
+            class="footer-logo"
+            src="images/hero-logo.png"
+            alt="Niass Autowheels logo"
+          />
+          <p>
+            Whether you are a dealer, fleet operator, rental agency, or
+            represent an organization that requires a steady supply of new
+            vehicles, contact us now and don’t miss an opportunity to get the
+            best vehicles at the lowest prices! Niass Autowheels team of experts
+            and professionals is here to support you!
+          </p>
+          <ul>
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link" href="about.html">About</a></li>
+            <li><a class="link" href="services.html">Services</a></li>
+            <li><a class="link" href="inventory.html">Inventory</a></li>
+            <li><a class="link" href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="copyright">
+            <p>&copy: NIASS AUTOWHEELS 2023, All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- javascript from bootsrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- to type using js-->
+    
+    <script>
+      var typed = new Typed(".auto-type", {
+            strings: ["READY TO OWN OR UPGRADE YOUR VEHICLES?"],
+            typeSpeed: 110,
+            startDelay: 4500,
+            backSpeed: 90,
+            loop: false 
+        })
+        var typed2 = new Typed(".auto-type2", {
+            strings: ["We got you covered!!!"],
+            typeSpeed: 70,
+            startDelay: 12000,
+            backSpeed: 90,
+            loop: false 
+        })
+
+    </script>
+  </body>
+</html>
