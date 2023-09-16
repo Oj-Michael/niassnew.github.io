@@ -165,11 +165,12 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  animation: loader 300ms linear forwards;
-  animation-delay: 3.5s;
+  animation: loader 2000ms linear forwards;
+  animation-delay: 2s;
 }
 @keyframes loader {
   30%{
+    transform: translateX(30vw) scale(2);
     filter: blur(100px) grayscale(1);
   }
   70%{
@@ -180,7 +181,6 @@ body {
     opacity: 0;
     transform: translateY(-100vw) scale(0);
   }
-  
 }
 .hand {
   display: flex;
