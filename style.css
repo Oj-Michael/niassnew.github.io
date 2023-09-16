@@ -166,7 +166,7 @@ body {
   align-items: center;
   z-index: 10000;
   animation: loader 2000ms linear forwards;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 @keyframes loader {
   30%{
