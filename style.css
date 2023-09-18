@@ -611,29 +611,23 @@ nav ul li a:hover::after {
 /* inventory */
 .inventory-section {
   background-color: var(--bg-thrd);
+  border-radius: 60px 60px 0 0;
+  padding-top: 1em;
 }
 .section-title {
   font-family: "ADLaM Display", cursive;
-  background: linear-gradient(
+   background: linear-gradient(
     45deg,
-    #fcb666,
+    #ffa135,
     #d6a06e,
     #f3b396,
     #e7ca6b,
     #dba688,
-    #d1917a,
-    #cea971,
-    #ecea71,
-    #fcb666,
-    #e7ccb3,
-    #e7d675,
-    #e7a76b,
-    #e7cd35,
-    #d1bd7a,
-    #cea971,
-    #c47230
+    #e6ae9a,
+    #f3d09b,
+    #ecd588
   );
-  background-size: 200%;
+  background-size: 170%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color: transparent;
@@ -897,6 +891,8 @@ p span::before {
 .contact-section {
   background: var(--bg-thrd);
   color: var(--text-secondary);
+  border-radius: 60px 60px 0 0;
+  padding-top: 1em;
 }
 .contact {
   display: flex;
