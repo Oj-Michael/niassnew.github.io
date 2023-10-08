@@ -323,7 +323,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 3em 0;
   text-align: center;
   font-family: "ADLaM Display", cursive;
@@ -358,7 +358,7 @@ main {
   transform: scale(1.12) !important;
 }
 .hero h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   text-shadow: -1px 2px 2px #000;
   margin-bottom: 0.6em;
   color: #ddd;
@@ -381,11 +381,12 @@ main {
   }
 
   .hero h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
   .hero h3 {
-    font-size: 1.7em;
+    font-size: 1.4em;
     margin-top: 2.5em;
+    margin-bottom: 2rem;
   }
 }
 
@@ -793,7 +794,13 @@ p span::before {
     line-height: 20px !important;
     margin-bottom: 1em;
   }
-
+  
+.fixed-icon{
+  position: absolute;
+  top: 66%;
+  right: 0;
+  font-size: 20px;
+}
   .item-card .item-card-img .img {
     width: 100%;
     height: 300px;
