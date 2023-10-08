@@ -990,7 +990,6 @@ textarea:focus {
     gap: 2em;
     background: var(--bg-main);
     border-radius: 10px;
-    box-shadow: 0 0 5px #dbb3853f;
   }
 
   .contact-form form input {
