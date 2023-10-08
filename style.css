@@ -677,7 +677,6 @@ nav ul li a:hover::after {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  opacity: 0.8;
   border-radius: 7px 7px 0 0;
   transition: border-raius 0.2s ease-out, opacity 0.2s ease-in-out,
     transform 0.3s ease-out, box-shadow 0.5s ease-in-out;
