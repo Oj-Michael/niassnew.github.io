@@ -1,0 +1,70 @@
+:root{
+    --orange: orange;
+    --yellow: #f07917;
+    --blue: #f9ad4c;
+    --red: #f15b20;
+    --gold: #ff961ff1;
+}
+header {
+  box-shadow: 0 1px 15px #ffa60160;
+}
+.our-services .container {
+  display: grid;
+  gap: 2.5em;
+}
+.our-services .norms {
+  font-size: 17px;
+  opacity: 0.85;
+  color: var(--text-secondary);
+  /* margin-top: -2.5em; */
+}
+.material-symbols-outlined {
+    font-size: 27px;
+    padding: 0.4em;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 550;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.services.orange{
+  box-shadow: 0 0 0 0.9px var(--orange);
+}
+.material-symbols-outlined.orange{
+  background-color: var(--orange);
+}
+.services.blue{
+  box-shadow: 0 0 0 0.9px var(--blue);
+}
+
+.material-symbols-outlined.blue{
+    background-color: var(--blue) !important;
+  }
+.services.yellow{
+  box-shadow: 0 0 0 0.9px var(--yellow);
+}
+.material-symbols-outlined.yellow{
+    background-color: var(--yellow);
+  }
+  
+.services.red{
+    box-shadow: 0 0 0 0.9px var(--red);
+  }
+  .material-symbols-outlined.red{
+      background-color: var(--red);
+    }
+    
+.services.gold{
+    box-shadow: 0 0 0 0.9px var(--gold);
+  }
+  .material-symbols-outlined.gold{
+      background-color: var(--gold);
+    }
+@media only screen and (max-width: 600px) {
+  .our-services .norms {
+    font-size: 15px;
+  }
+}

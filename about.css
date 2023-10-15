@@ -1,0 +1,203 @@
+
+header{
+    box-shadow: 0 -1px 13px #ffa60160;
+}
+.section-title{
+    text-align: center;
+}
+.why{
+    color: var(--text-secondary);
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.85;
+    margin-top: -1em;
+    text-align: center;
+}
+
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.icon{
+    background: linear-gradient(90deg,
+     #f1a414, #f1b965, #e49671, #e0c289, #e9bf81);
+
+    font-size: 30px;
+    padding: 0.45em;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 550;
+    margin-bottom: 1em;
+}
+.brands{
+    margin-top: -1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.brands img{
+    width: 200px;
+}
+.brand:nth-child(1){
+    transition-delay: 400ms;
+}
+
+.brand:nth-child(2){
+    transition-delay: 600ms;
+}
+
+.brand:nth-child(3){
+    transition-delay: 800ms;
+}
+
+.brand:nth-child(4){
+    transition-delay: 1000ms;
+}
+
+.brand:nth-child(5){
+    transition-delay: 1200ms;
+}
+
+.brand:nth-child(6){
+    transition-delay: 1400ms;
+}
+.ceo-section{
+    background-color: var(--bg-thrd);
+}
+.ceo{
+    margin: 0 auto;
+}
+.ceo-img{
+    width: 450px;
+    margin: 0 auto 1em;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #0009;
+    transition: 0.4s ease-in-out;
+    transform-style: preserve-3d;
+   /* transform: perspective(50500px) rotateX(var(--rotateY)) rotateY(var(--rotateY)); */
+}
+.ceo-img:hover{
+    /* transform: translateY(-5px); */
+    box-shadow: 2px 2px 35px #000;
+}
+.ceo-img img{
+    transform-style: preserve-3d;
+    border-radius: inherit;
+    width: 100%;
+    height: 450px;
+    filter: grayscale(0.9);
+    transition: all 0.3s ease-in;
+}
+.ceo-img img:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+.ceo-info{
+    color: var(--text-secondary);
+    font-size: 17px;
+    opacity: 0.88;
+    text-align: center;
+}
+
+/* reviews */
+.reviews-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    margin-bottom: 1.5em;
+}
+.reviews{
+  background: linear-gradient(45deg, #111010, #111, #1119);
+    padding: 1em;
+    box-shadow: 0 0 0 0.9px orange;
+    border-radius: 15px;
+    transition: 0.4s ease-out;
+}
+.reviews:hover{
+    background: linear-gradient(45deg, #111, #070505, #111010);
+    transform: translateY(-8px);
+}
+.reviews h4{
+    color: var(--text-main);
+    text-align: center;
+    font-size: 29px;
+    margin: 0.5em 0;
+}
+.reviews p{
+    color: var(--text-secondary);
+    font-size: 17px;
+    line-height: 25px;
+    opacity: 0.8;
+    text-align: center;
+}
+.reviews-img{
+    width: 70%;
+    margin: 0 auto 1.5em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.reviews-img img{
+    width: 100%;
+    height: 350px;
+    border-radius: inherit;
+    filter: grayscale(0.9);
+    transition: 0.3s ease-in;
+}
+.reviews:hover .reviews-img img{
+    transform: scale(1.125);
+    filter: grayscale(0);
+}
+/* footer */
+footer{
+  background-image: linear-gradient(#0009, #0009, #000), url("inventory/2022landcruiser.jpg");
+
+}
+@media only screen and (max-width: 600px){
+    .section-title, .why{
+        text-align: left;
+    }
+    .why p{
+        font-size: 15px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    
+.brands img{
+    width: 110px;
+}
+
+.ceo-img{
+    transform: perspective(3500px) rotateX(var(--rotateY)) rotateY(var(--rotateY));
+    width: 100%;
+    border-radius: 7px;
+}
+.ceo-img img{
+    height: 370px;
+}
+.ceo-info{
+    text-align: left;
+    font-size: 15px;
+}
+.reviews h4{
+    text-align: left;
+    font-size: 23px;
+}
+.reviews p{
+    font-size: 15px;
+    text-align: left;
+}
+.reviews-img{
+    width: 100%;
+}
+.reviews-img img{
+    height: 300px;
+}
+}
